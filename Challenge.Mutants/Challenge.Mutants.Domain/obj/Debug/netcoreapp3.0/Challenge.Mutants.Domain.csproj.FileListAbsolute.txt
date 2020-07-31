@@ -1,0 +1,13 @@
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Domain\bin\Debug\netcoreapp3.0\Challenge.Mutants.Domain.deps.json
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Domain\bin\Debug\netcoreapp3.0\Challenge.Mutants.Domain.dll
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Domain\obj\Debug\netcoreapp3.0\Challenge.Mutants.Domain.csprojAssemblyReference.cache
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Domain\obj\Debug\netcoreapp3.0\Challenge.Mutants.Domain.AssemblyInfoInputs.cache
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Domain\obj\Debug\netcoreapp3.0\Challenge.Mutants.Domain.AssemblyInfo.cs
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Domain\bin\Debug\netcoreapp3.0\Challenge.Mutants.Infrastructure.dll
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Domain\bin\Debug\netcoreapp3.0\Challenge.Mutants.Domain.runtimeconfig.json
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Domain\bin\Debug\netcoreapp3.0\Challenge.Mutants.Domain.runtimeconfig.dev.json
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Domain\bin\Debug\netcoreapp3.0\Challenge.Mutants.Domain.pdb
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Domain\bin\Debug\netcoreapp3.0\Challenge.Mutants.Infrastructure.pdb
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Domain\obj\Debug\netcoreapp3.0\Challenge.Mutants.Domain.csproj.CopyComplete
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Domain\obj\Debug\netcoreapp3.0\Challenge.Mutants.Domain.dll
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Domain\obj\Debug\netcoreapp3.0\Challenge.Mutants.Domain.pdb

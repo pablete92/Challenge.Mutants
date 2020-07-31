@@ -1,0 +1,13 @@
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Application\bin\Debug\netcoreapp3.0\Challenge.Mutants.Application.deps.json
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Application\bin\Debug\netcoreapp3.0\Challenge.Mutants.Application.dll
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Application\obj\Debug\netcoreapp3.0\Challenge.Mutants.Application.csprojAssemblyReference.cache
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Application\obj\Debug\netcoreapp3.0\Challenge.Mutants.Application.AssemblyInfoInputs.cache
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Application\obj\Debug\netcoreapp3.0\Challenge.Mutants.Application.AssemblyInfo.cs
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Application\bin\Debug\netcoreapp3.0\Challenge.Mutants.Application.pdb
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Application\bin\Debug\netcoreapp3.0\Challenge.Mutants.Domain.dll
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Application\bin\Debug\netcoreapp3.0\Challenge.Mutants.Infrastructure.dll
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Application\bin\Debug\netcoreapp3.0\Challenge.Mutants.Domain.pdb
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Application\bin\Debug\netcoreapp3.0\Challenge.Mutants.Infrastructure.pdb
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Application\obj\Debug\netcoreapp3.0\Challenge.Mutants.Application.csproj.CopyComplete
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Application\obj\Debug\netcoreapp3.0\Challenge.Mutants.Application.dll
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Application\obj\Debug\netcoreapp3.0\Challenge.Mutants.Application.pdb
