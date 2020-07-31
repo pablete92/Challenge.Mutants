@@ -1,10 +1,7 @@
 ﻿using Challenge.Mutants.Application.Handlers;
-using Challenge.Mutants.Application.Models;
 using Challenge.Mutants.Application.Models.Request;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Challenge.Mutants.Api.Controllers

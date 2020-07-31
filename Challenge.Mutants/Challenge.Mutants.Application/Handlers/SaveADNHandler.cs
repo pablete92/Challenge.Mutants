@@ -1,12 +1,11 @@
-﻿using System.Threading;
-using System.Threading.Tasks;
-using Challenge.Mutants.Application.Models;
-using Challenge.Mutants.Application.Models.Request;
+﻿using Challenge.Mutants.Application.Models.Request;
 using Challenge.Mutants.Domain.Contexts;
 using Challenge.Mutants.Domain.Entities;
 using Challenge.Mutants.Infrastructure.Bootstrapers;
 using Challenge.Mutants.Infrastructure.Data.Contracts;
 using MediatR;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Challenge.Mutants.Application.Handlers
 {
@@ -37,7 +36,7 @@ namespace Challenge.Mutants.Application.Handlers
 
         public async Task<Unit> Handle(SaveADNRequest request, CancellationToken cancellationToken)
         {
-            logger.Information($"Iniciado: SaveADNHandler.Hanlder(adn: {request.Model.Adn}, mutant: {request.Model.Mutant}");
+            //logger.Information($"Iniciado: SaveADNHandler.Hanlder(adn: {request.Model.Adn}, mutant: {request.Model.Mutant}");
 
             repositoryCommandADN.Create(new ADNEntity
             {
