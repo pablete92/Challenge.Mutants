@@ -12,6 +12,7 @@ namespace Challenge.Mutants.Application.Mappers
         public AdnModel MapEntityToModel(ADNEntity q)
             => new AdnModel
             {
+                Id = q.ID,
                 Adn = q.Adn,
                 Mutant = q.Mutant
             };
