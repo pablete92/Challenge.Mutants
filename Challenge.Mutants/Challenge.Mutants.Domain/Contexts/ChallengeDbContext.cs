@@ -8,7 +8,7 @@ namespace Challenge.Mutants.Domain.Contexts
     public class ChallengeDbContext : DbContext
     {
         public ChallengeDbContext() : base(new DbContextOptionsBuilder<ChallengeDbContext>()
-            .UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=Mutants;Trusted_Connection=True;Initial Catalog=Mutants")
+            .UseSqlServer("Data Source=DESKTOP-HCK3H43\\SQLEXPRESS01;Initial Catalog=Mutants;Integrated Security=True;")
             .Options)
         { }
 

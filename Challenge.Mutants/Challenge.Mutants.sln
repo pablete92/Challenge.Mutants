@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.Mutants.Infrastructure", "Challenge.Mutants.Infrastructure\Challenge.Mutants.Infrastructure.csproj", "{0F669D5E-C971-4AB4-A171-C84F04233E40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge.Mutants.Infrastructure", "Challenge.Mutants.Infrastructure\Challenge.Mutants.Infrastructure.csproj", "{0F669D5E-C971-4AB4-A171-C84F04233E40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.Mutants.Domain", "Challenge.Mutants.Domain\Challenge.Mutants.Domain.csproj", "{FFA0DE7B-BA8D-4EE1-9581-38CB6A1C3B32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge.Mutants.Domain", "Challenge.Mutants.Domain\Challenge.Mutants.Domain.csproj", "{FFA0DE7B-BA8D-4EE1-9581-38CB6A1C3B32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.Mutants.Application", "Challenge.Mutants.Application\Challenge.Mutants.Application.csproj", "{A74E7DE1-E0E0-42C7-9232-384098EC9890}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge.Mutants.Application", "Challenge.Mutants.Application\Challenge.Mutants.Application.csproj", "{A74E7DE1-E0E0-42C7-9232-384098EC9890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.Mutants.Api", "Challenge.Mutants.Api\Challenge.Mutants.Api.csproj", "{DC3517E2-7597-4240-AB3B-05CA0370C3FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge.Mutants.Api", "Challenge.Mutants.Api\Challenge.Mutants.Api.csproj", "{DC3517E2-7597-4240-AB3B-05CA0370C3FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.Mutants.Test", "Challenge.Mutants.Test\Challenge.Mutants.Test.csproj", "{798F8E20-5662-4A17-AFE0-5557E4888800}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DC3517E2-7597-4240-AB3B-05CA0370C3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC3517E2-7597-4240-AB3B-05CA0370C3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC3517E2-7597-4240-AB3B-05CA0370C3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{798F8E20-5662-4A17-AFE0-5557E4888800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798F8E20-5662-4A17-AFE0-5557E4888800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798F8E20-5662-4A17-AFE0-5557E4888800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798F8E20-5662-4A17-AFE0-5557E4888800}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

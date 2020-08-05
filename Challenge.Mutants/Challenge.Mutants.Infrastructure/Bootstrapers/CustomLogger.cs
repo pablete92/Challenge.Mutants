@@ -27,7 +27,7 @@ namespace Challenge.Mutants.Infrastructure.Bootstrapers
             fileName = string.Format("log-{0:yyyy-MM-dd}.txt", DateTime.Now);
         }
 
-        public CustomLogger(ILogger logger, string[] availables, string filePath)
+        public CustomLogger(string[] availables, string filePath)
         {
             this.availables = availables;
             this.filePath = filePath;

@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using Challenge.Mutants.Application.Mappers;
+using Challenge.Mutants.Application.Services;
 using Challenge.Mutants.Infrastructure.Services;
 
 namespace Challenge.Mutants.Api.Configuration
@@ -16,9 +17,18 @@ namespace Challenge.Mutants.Api.Configuration
 
             #endregion
 
+            #region Services
+
+            builder.RegisterType<AdnService>()
+               .AsImplementedInterfaces()
+               .InstancePerLifetimeScope();
+
             builder.RegisterType<AppUserService>()
                 .AsImplementedInterfaces()
                 .InstancePerLifetimeScope();
+
+            #endregion
+
         }
     }
 }
