@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Challenge.Mutants.Api.Controllers
 {
-    [Route("Challenge/Mutant/[controller]")]
+    [Route("")]
     [ApiController]
     public class ADNController : ControllerBase
     {
@@ -18,7 +18,7 @@ namespace Challenge.Mutants.Api.Controllers
         }
 
         [HttpPost]
-        [Route("Insert")]
+        [Route("mutant")]
         public async Task<ActionResult> PostADN([FromBody] SaveADNModel model)
         {
             await mediator.Send(new SaveADNRequest(model));
@@ -27,8 +27,8 @@ namespace Challenge.Mutants.Api.Controllers
         }
 
         [HttpGet]
-        [Route("GetAll")]
-        public async Task<ActionResult> GetAllADN()
+        [Route("stats")]
+        public async Task<ActionResult> GetStats()
         {
             var result = await mediator.Send(new GetAllADNRequest());
 

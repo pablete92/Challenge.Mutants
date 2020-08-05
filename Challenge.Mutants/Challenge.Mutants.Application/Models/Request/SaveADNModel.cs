@@ -2,8 +2,6 @@
 {
     public class SaveADNModel
     {
-        public string Adn { get; set; }
-
-        public bool Mutant { get; set; }
+        public string[] Dna { get; set; }
     }
 }
