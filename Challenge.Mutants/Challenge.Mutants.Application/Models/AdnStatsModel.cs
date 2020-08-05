@@ -5,12 +5,12 @@ namespace Challenge.Mutants.Application.Models
     public class AdnStatsModel
     {
         [JsonProperty("count_mutant_dna")]
-        public int CountMutantDna { get; set; }
+        public int count_mutant_dna { get; set; }
 
         [JsonProperty("count_human_dna")]
-        public int CountHumanDna { get; set; }
+        public int count_human_dna { get; set; }
 
         [JsonProperty("ratio")]
-        public double Ratio { get; set; }
+        public double ratio { get; set; }
     }
 }

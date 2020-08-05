@@ -30,7 +30,7 @@ namespace Challenge.Mutants.Api.Controllers
         [Route("stats")]
         public async Task<ActionResult> GetStats()
         {
-            var result = await mediator.Send(new GetAllADNRequest());
+            var result = await mediator.Send(new GetStatsADNRequest());
 
             return Ok(result);
         }
