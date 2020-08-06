@@ -72,7 +72,7 @@ namespace Challenge.Mutants.Infrastructure.Data
 
         public virtual TEntity Update(TEntity entityToUpdate)
         {
-            var local = context.Set<TEntity>().Local.FirstOrDefault(e => e.ID.Equals(entityToUpdate.ID));
+            var local = context.Set<TEntity>().Local.FirstOrDefault(e => e.id.Equals(entityToUpdate.id));
 
             if (local != null)
             {

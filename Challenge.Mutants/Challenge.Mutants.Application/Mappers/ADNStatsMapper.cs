@@ -10,7 +10,7 @@ namespace Challenge.Mutants.Application.Mappers
     {
         public AdnStatsModel MapEntityToModel(IEnumerable<ADNEntity> models)
         {
-            var newModel = models.GroupBy(q => q.Mutant).Select(x => new { value = x.Key, dnaMutant = x.Count() });
+            var newModel = models.GroupBy(q => q.mutant).Select(x => new { value = x.Key, dnaMutant = x.Count() });
 
             int mutant= newModel.Where(x => x.value).Select(q => q.dnaMutant).FirstOrDefault();
 

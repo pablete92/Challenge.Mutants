@@ -143,5 +143,6 @@ C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mu
 C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Api\obj\Debug\netcoreapp3.1\Challenge.Mutants.Api.dll
 C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Api\obj\Debug\netcoreapp3.1\Challenge.Mutants.Api.pdb
 C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Api\obj\Debug\netcoreapp3.1\Challenge.Mutants.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Api\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Api\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\pable\Documents\GitHub\Challenge.Mutants\Challenge.Mutants\Challenge.Mutants.Api\obj\Debug\netcoreapp3.1\Challenge.Mutants.Api.MvcApplicationPartsAssemblyInfo.cache

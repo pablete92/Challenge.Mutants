@@ -8,11 +8,11 @@ namespace Challenge.Mutants.Domain.Mapping
     {
         public void Configure(EntityTypeBuilder<ADNEntity> builder)
         {
-            builder.HasKey(e => e.ID);
-            builder.ToTable("ADN");
+            builder.HasKey(e => e.id);
+            builder.ToTable("adn");
 
-            builder.Property(e => e.Adn).HasMaxLength(100).IsUnicode(false).IsRequired();
-            builder.Property(e => e.Mutant).IsRequired();
+            builder.Property(e => e.adn).HasMaxLength(100).IsUnicode(false).IsRequired();
+            builder.Property(e => e.mutant).IsRequired();
         }
     }
 }

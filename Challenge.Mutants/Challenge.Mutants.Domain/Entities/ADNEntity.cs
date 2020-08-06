@@ -6,9 +6,9 @@ namespace Challenge.Mutants.Domain.Entities
     public class ADNEntity : EntityBase
     {
         [JsonProperty("adn")]
-        public string Adn { get; set; }
+        public string adn { get; set; }
 
         [JsonProperty("mutant")]
-        public bool Mutant { get; set; }
+        public bool mutant { get; set; }
     }
 }

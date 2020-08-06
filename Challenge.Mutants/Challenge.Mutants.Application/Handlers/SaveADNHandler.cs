@@ -48,8 +48,8 @@ namespace Challenge.Mutants.Application.Handlers
 
             repositoryCommandADN.Create(new ADNEntity
             {
-                Adn = model.Adn,
-                Mutant = model.Mutant
+                adn = model.Adn,
+                mutant = model.Mutant
             });
 
             await unitOfWork.SaveChangesAsync();

@@ -12,9 +12,9 @@ namespace Challenge.Mutants.Application.Mappers
         public AdnModel MapEntityToModel(ADNEntity q)
             => new AdnModel
             {
-                Id = q.ID,
-                Adn = q.Adn,
-                Mutant = q.Mutant
+                Id = q.id,
+                Adn = q.adn,
+                Mutant = q.mutant
             };
 
         public IEnumerable<AdnModel> MapEntityToModelCollection(IEnumerable<ADNEntity> entities) =>

@@ -8,7 +8,7 @@ namespace Challenge.Mutants.Infrastructure.Data
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ID { get; set; }
+        public int id { get; set; }
     }
 
     public abstract class AuditEntityBase : EntityBase

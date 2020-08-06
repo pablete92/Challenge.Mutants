@@ -8,14 +8,14 @@ namespace Challenge.Mutants.Domain.Contexts
     public class ChallengeDbContext : DbContext
     {
         public ChallengeDbContext() : base(new DbContextOptionsBuilder<ChallengeDbContext>()
-            .UseSqlServer("Data Source=DESKTOP-HCK3H43\\SQLEXPRESS01;Initial Catalog=Mutants;Integrated Security=True;")
+            .UseSqlServer("Server=190.52.34.80;Port=5432;Database=dbMutant;User Id=postgres;Password=@@Praxis_1;Integrated Security=true;Pooling=true;")
             .Options)
         { }
 
         public ChallengeDbContext(DbContextOptions<ChallengeDbContext> option)
             : base(option) { }
 
-        public virtual DbSet<ADNEntity> ADN { get; set; }
+        public virtual DbSet<ADNEntity> adn { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

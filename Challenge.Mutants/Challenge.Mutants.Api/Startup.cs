@@ -31,7 +31,9 @@ namespace Challenge.Mutants.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ChallengeDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ChallengeDbContext")));
+            //services.AddDbContext<ChallengeDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ChallengeDbContext")));
+
+            services.AddEntityFrameworkNpgsql().AddDbContext<ChallengeDbContext>(options => options.UseNpgsql(Configuration.GetConnectionString("ChallengeDbContext")));
 
             services.AddMvc(q => q.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
